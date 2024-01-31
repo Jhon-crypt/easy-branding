@@ -1,0 +1,21 @@
+#hero-text-header {
+  font-family: "Poppins", sans-serif;
+}
+
+#hero-text {
+  font-family: "Poppins", sans-serif;
+}
+
+#nav-btn {
+  font-size: 20px;
+  border-bottom-width: 1px;
+  border-color: rgb(50, 50, 50);
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 1px;
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+  border-radius: 4px;
+  box-shadow: 4px 4px 0px 0px rgb(50, 50, 50);
+}
