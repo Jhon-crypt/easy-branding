@@ -9,19 +9,21 @@ function App() {
 
   return (
     <>
-      <div
-        style={{
-          backgroundColor: '#FFDE59',
-          borderRadius: "0% 100% 8% 92% / 100% 0% 100% 0%"
-        }}
-        className='mb-5'
-      >
-        <Header />
-        <Hero />
+      <div data-scroll-container>
+        <div
+          style={{
+            backgroundColor: '#FFDE59',
+            borderRadius: "0% 100% 8% 92% / 100% 0% 100% 0%"
+          }}
+          className='mb-5'
+        >
+          <Header />
+          <Hero />
+        </div>
+        <Hero2 />
+        <Hero3 />
+        <CallToActionSection />
       </div>
-      <Hero2 />
-      <Hero3 />
-      <CallToActionSection />
     </>
   )
 }
